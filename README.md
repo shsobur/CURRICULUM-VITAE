@@ -6,7 +6,7 @@ This is a **static resume project** built with **React**. The layout is inspired
 
 ## 📸 Live link
 
-![Live Link](./path-to-your-image.jpg)
+![Live Link](https://cv-torial-project.web.app)
 
 ---
 
@@ -27,7 +27,7 @@ This is a **static resume project** built with **React**. The layout is inspired
 
 ---
 
-## 📂 Folder Structure (Example)
+## 📂 Folder Structure
 
 src/
 ├── assets/
