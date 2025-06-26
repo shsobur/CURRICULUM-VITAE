@@ -1,0 +1,49 @@
+.main_edu_container {
+  min-width: 500px;
+  padding: 30px;
+  border-radius: 8px;
+  background-color: #b4dac5;
+  border: 2px solid black;
+}
+
+.edu_header_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 15px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border-radius: 8px;
+  background-color: #f1ebdb;
+}
+
+.edu_info_container {
+  padding: 30px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.edu_info_one p:nth-child(1) {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.edu_info_two p:nth-child(1) {
+  font-size: 19px;
+  margin-bottom: 5px;
+}
+
+/* Responsive style__ */
+
+@media screen and (max-width: 1280px) {
+  .main_edu_container {
+    min-width: 450px;
+  }
+
+  .edu_info_container {
+    padding: 30px 30px 5px 30px;
+  }
+}

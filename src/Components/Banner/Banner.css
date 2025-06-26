@@ -1,0 +1,89 @@
+.main_banner_container {
+  min-width: 1024px;
+  padding: 20px;
+  border-radius: 8px;
+  border: 4px solid black;
+  background-color: #b3dac5;
+}
+
+.banner_header_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.8rem;
+  font-weight: 600;
+  padding: 15px 20px;
+  cursor: pointer;
+  border-radius: 8px;
+  background-color: #ebe1c8;
+}
+
+.banner_person_info_container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-top: 50px;
+  padding-bottom: 80px;
+}
+
+.person_info_content {
+  padding-left: 80px;
+}
+
+.person_info_content h1 {
+  font-size: 3rem;
+}
+
+.person_info_content h2 {
+  font-size: 2.5rem;
+  margin-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.person_address_container {
+  margin-top: 50px;
+}
+
+.person_address_one,
+.person_address_two {
+  gap: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.person_address_two {
+  gap: 25px;
+  padding-left: 5px;
+}
+
+.person_image_content img {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+}
+
+.person_image_content ul {
+  gap: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 1280px) {
+  .main_banner_container {
+    min-width: 768px;
+  }
+
+  .person_info_content h1 {
+    font-size: 2.8rem;
+  }
+
+  .person_info_content h2 {
+    font-size: 2.3rem;
+  }
+}

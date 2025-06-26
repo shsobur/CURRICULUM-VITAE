@@ -1,0 +1,8 @@
+.main_ref_container {
+  font-size: 22px;
+}
+
+.main_ref_container p:nth-child(5) {
+  color: #636363;
+  margin-top: 10px;
+}

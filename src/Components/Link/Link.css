@@ -1,0 +1,8 @@
+.main_link_container {
+  padding: 20px 30px;
+  border-radius: 8px;
+  font-weight: 300;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #ebe1c8;
+}
